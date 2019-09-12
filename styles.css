@@ -1,0 +1,56 @@
+.spaced-out {
+  margin: 10px;
+}
+
+.spaced-out-nametag {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.spaced-out-signup {
+  margin:right: 10px;
+}
+
+.spaced-out-top {
+  margin-top: 20px;
+}
+
+.circle-image {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.nav {
+  position: fixed !important;
+  top: 0px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: hsl(171, 100%, 41%) !important;
+  box-shadow: 1px 1px 10px #555555 !important;
+}
+
+.hero-body {
+  margin-top: 50px;
+}
+
+.image.is-64x64 {
+  height: 120px;
+  width: 120px;
+}
+
+span.tag a {
+    color: white;
+}
+
+.media {
+  overflow: scroll;
+}
+
+.media {
+  -ms-overflow-style: none;  /* IE 10+ */
+  overflow: -moz-scrollbars-none;  /* Firefox */
+}
+.media::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
